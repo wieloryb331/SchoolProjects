@@ -29,7 +29,7 @@ void wyswietl_login(){
     getlogin_r(login,128);
     printf("Login aktualnie zalogowanego uzytkownika to: ");printf("\033[1;32m");printf("%s\n",login);printf("\033[0m");
 }
-
+ 
 void polecenie_cp(char * skad, char * dokad){
     FILE *skad_plik;
     FILE *dokad_plik;
